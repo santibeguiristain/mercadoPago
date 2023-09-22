@@ -1,0 +1,50 @@
+
+#######################################################################
+INSTALAR 
+#######################################################################
+
+Instalar   -- >>  npm install express cors mercadopago 
+Instalar   -- >>  npm i nodemon  //Levantar u nservidor, teniendolo corriendo, poder modificar codigo y se va guardando automaticamente sin tener que matar el server y volver a levantatrlo
+
+
+#######################################################################
+CORRER server
+#######################################################################
+CD server
+NPM START
+
+#######################################################################
+MERCADO PAGO
+#######################################################################
+
+Tus integraciones .. Crear aplicacion.
+
+Luego de crerada , tenemos:
+
+1 Public Key   .....> Esto va en el cliente
+2 Acces token   ....> este va en el server
+
+
+--CORRER APLICACION CON 
+                            Ubicado en server (cd server)
+                            npm start   (corre nodemon condigurado en el .json)
+
+
+
+
+#######################################################################
+Para probarlo, entrar al navegador localhost:8080
+#######################################################################
+
+
+#######################################################################
+cuentas
+#######################################################################
+
+En mercadopago en la parte de developers entrar y crear dos cuentas, una vendedor y una comprador,
+Loguearme con usuario y conrtrase;a en dos navegadores
+Las claves de la cuenta de vendedor , las de produccion igualmente se esta usando cuenta de prueba, ponerlas en el codigo.
+
+Ingresar en el navgador donde estoty logueado con la otra cuenta y entrar a localhost 8080 . pagart.
+
+ 
